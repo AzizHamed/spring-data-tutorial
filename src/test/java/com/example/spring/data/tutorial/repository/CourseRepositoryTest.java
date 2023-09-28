@@ -14,7 +14,7 @@ class CourseRepositoryTest {
     private CourseRepository courseRepository;
     
     @Test
-    public void printCourses(){
+    public void printCourses(){ ///
         List<Course> courses = courseRepository.findAll();
         System.out.println("courses = " + courses);
     }
